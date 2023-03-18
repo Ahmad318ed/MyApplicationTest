@@ -14,7 +14,7 @@
         android:textAlignment="center"
         android:textSize="60sp"
         android:textStyle="bold"
-        android:textColor="#e84118"
+        android:textColor="@color/Main"
         android:layout_margin="10dp"
         android:fontFamily="@font/bungee_inline"/>
 
@@ -47,7 +47,7 @@
         style="@style/ThemeOverlay.Material3.TextInputEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Price"
+        android:hint="Phone"
         android:textColorHint="#e84118"
         app:helperTextEnabled="true"
         app:helperText="Required*"
@@ -75,15 +75,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Submit"
-        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:backgroundTint="#e84118"
         android:clickable="true"
         android:focusable="true"
         android:fontFamily="@font/bungee_inline"
-        android:backgroundTint="#e84118"
-        android:layout_margin="10dp"
-        />
+        android:text="Submit"
+        android:textColor="@color/black" />
+    <Button
 
+        android:id="@+id/btn_open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="#e84118"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/bungee_inline"
+        android:text="Open"
+        android:textColor="@color/black" />
 
 
 </LinearLayout>
